@@ -2,7 +2,6 @@
 
 /* @var $this yii\web\View */
 use yii\helpers\Html;
-$this->title = 'My Yii Application';
 ?>
 <section id="advertisement">
     <div class="container">
@@ -52,7 +51,7 @@ $this->title = 'My Yii Application';
 
             <div class="col-sm-9 padding-right">
                 <div class="features_items"><!--features_items-->
-                    <h2 class="title text-center">Features Items</h2>
+                    <h2 class="title text-center"><?= $category->name?></h2>
                     <?php if(!empty($products)): ?>
                         <?php $i = 0; foreach($products as $product): ?>
                             <div class="col-sm-4">
