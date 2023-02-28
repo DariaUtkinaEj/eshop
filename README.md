@@ -9,3 +9,12 @@ I use:
 
 -----------
 BSD-3-Clause license
+-----------
+------------
+* I found a free online store layout template and added my own ideas to it. Now I am writing the backend part of the project. 
+* I use Phantom.js (headless web browser) to make some screenshots of my site!
+Here they are:
+
+![screen.png](phantom_js_headless_br_screens%2Fscreen.png)
+![img_1.png](img_1.png)
+![img.png](img.png)
