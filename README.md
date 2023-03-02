@@ -16,5 +16,6 @@ BSD-3-Clause license
 Here they are:
 
 ![screen.png](phantom_js_headless_br_screens%2Fscreen.png)
+![img_2.png](img_2.png)
 ![img_1.png](img_1.png)
 ![img.png](img.png)
