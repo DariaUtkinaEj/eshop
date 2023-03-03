@@ -23,3 +23,5 @@ class AppAdminController extends Controller{
     }
 
 }
+
+// example-admin: username - admin, password - 123, password-hash - $2y$10$ucb0xN15rbxHLY9o5hXHceoHTHSCUqe3k3iThuC/QE7Rlt/BcYyHK
