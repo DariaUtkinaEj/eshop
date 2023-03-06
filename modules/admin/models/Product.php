@@ -29,9 +29,8 @@ class Product extends \yii\db\ActiveRecord
         return 'product';
     }
 
-    public function getCategory()
-    {
-        $this->hasOne(Category::className(), ['id' => 'category_id']);
+    public function getCategory(){
+        return $this->hasOne(Category::className(), ['id' => 'category_id']);
     }
 
     /**
@@ -44,7 +43,7 @@ class Product extends \yii\db\ActiveRecord
             [['category_id'], 'integer'],
             [['content', 'hit', 'new', 'sale'], 'string'],
             [['price'], 'number'],
-            [['name', 'keywords', 'description', 'img'], 'string', 'max' => 255]
+            [['name', 'keywords', 'description', 'img'], 'string', 'max' => 255],
         ];
     }
 
@@ -66,6 +65,5 @@ class Product extends \yii\db\ActiveRecord
             'new' => 'Новинка',
             'sale' => 'Распродажа',
         ];
-
     }
 }
